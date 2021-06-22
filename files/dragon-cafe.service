@@ -8,7 +8,7 @@ Group=student
 WorkingDirectory=/home/student/dragon-cafe
 ExecStart=/home/student/dragon-cafe/venv/bin/python3 dragon_monolith.py
 
-StandardOutput=syslog
+StandardOutput=/home/student/dragon-cafe/venv/logs
 StandardError=syslog
 SyslogIdentifier=dragon-cafe
 
